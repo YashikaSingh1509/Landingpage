@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+
+.cancel {
+  padding: 14px 20px;
+  background-color: #ff3d2f;
+}
+.signup{
+  padding :14px 20px;
+  background-color:blue;
+}
+button {
+  background-color: #04AA6D;
+  color:black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.bg-img {
+  
+  background-image: url("image12.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+html,body{
+  min-height: 100vh;
+}
+button:hover{
+  background-color:green;
+    color:white;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" type="text/css" href="f4.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="nav1">
+            <div>
+                <p>“Arise, slay thy enemies, enjoy a prosperous kingdom,”</p>
+            </div>
+            <div>
+                <a href="signupform.html"> SIGNUP</a>
+                <a href="signin.html">SIGNIN</a>
+            </div>
+        </nav>
+        <img src="img10.jpg">
+        <nav class="nav2">
+            <div class="menu">
+                <a href="#">home</a>
+                <a href="#">contact</a>
+                <a href="#">about</a>
+                <a href="#">references</a>
+            </div>
+        </nav>
+        <div class="h-text">
+            <h1>
+                Welcome to Saarthi
+            </h1>
+            <p>
+                “It is better to live your own destiny imperfectly then to live an imitation of somebody else's life with perfection.”
+            </p>
+            
+            <form>
+            
+                <div class="row"> 
+                    <div class="col-25">
+                        <label for="Problem"> Problem</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="Problem" name="Problem" placeholder="Enter the problem">
+                    </div>
+                </div>
+        </div>
+    </header>
+    
+</body>
+</html>
